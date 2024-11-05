@@ -7,8 +7,8 @@ if __name__ == "__main__":
     root = tkinter.Tk()
     obj = Main(root)
     #icono
-    mcicon = "XD"
-    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(mcicon)
+    myappid = 'ddxdxdxd'  # arbitrary string
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     root.iconbitmap("images/mclovin.ico")
     #estado de mclovin
     estado = {"imagen_actual": 1}
