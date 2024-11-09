@@ -16,7 +16,7 @@ if __name__ == "__main__":
     root = tkinter.Tk()
     obj = Main(root)
     #icono
-    myappid = 'ddxdxdxd'  # arbitrary string
+    myappid = 'ddxdxdxd'  # string arbitrario
     ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     root.iconbitmap(resource_path("mclovin.ico"))
     #estado de mclovin
