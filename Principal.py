@@ -1,5 +1,4 @@
 import sys
-
 from Librerias.clases import *
 import tkinter
 from PIL import ImageTk, Image
